@@ -1,5 +1,5 @@
 # 💫 About me:
-🚀 Hey, Myself Ravi Kumar Thakur. A technologies enthusiast, loves building applications and learning new technologies <br>👨‍💻 Currently building learn.dev<br>💻 Built [notes](https://make-notes-with-ai.vercel.app) and [Gen - A learning platform](https://gen-alearningplatform.vercel.app)<br>
+🚀 Hi, I'm Ravi Kumar Thakur, a technology enthusiast passionate about building applications and exploring new technologies <br>👨‍💻 Currently building learn.dev<br>💻 I have built [notes](https://make-notes-with-ai.vercel.app) and [Gen - A learning platform](https://gen-alearningplatform.vercel.app)<br>
 
 
 ## 🌐 Socials:
