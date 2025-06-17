@@ -20,6 +20,9 @@ export const metadata: Metadata = {
     "Ravi Kumar Thakur, a software engineer. Jack of all trades, and master of all also",
 };
 
+// cloudfare config
+export const runtime = "edge";
+
 export default function RootLayout({
   children,
 }: Readonly<{
