@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     siteName: "Ravi Thakur Portfolio",
     images: [
       {
-        url: "https://avatars.githubusercontent.com/u/77937169?v=4",
+        url: "https://bmbptnskmdnddumeazkt.supabase.co/storage/v1/object/public/solana-token-metadata//image.png",
         width: 1200,
         height: 630,
         alt: "Ravi Thakur | Full-Stack Developer",
@@ -61,7 +61,9 @@ export const metadata: Metadata = {
     description:
       "Ravi Kumar Thakur – Full-Stack Developer proficient in Python, TypeScript, SQL, Django, FastAPI, React, Next.js, and Rust.",
     creator: "@ravic0des",
-    images: ["https://avatars.githubusercontent.com/u/77937169?v=4"],
+    images: [
+      "https://bmbptnskmdnddumeazkt.supabase.co/storage/v1/object/public/solana-token-metadata//image.png",
+    ],
   },
   robots: {
     index: true,
