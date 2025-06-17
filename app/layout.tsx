@@ -15,9 +15,65 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ravi Thakur",
+  title: "Ravi Thakur | Full-Stack Developer | Python | TypeScript | Rust",
   description:
-    "Ravi Kumar Thakur, a software engineer. Jack of all trades, and master of all also",
+    "Ravi Kumar Thakur – Full-Stack Developer proficient in Python, TypeScript, SQL, Django, FastAPI, React, Next.js, and Rust. Passionate about building scalable software and learning fast.",
+  keywords: [
+    "Ravi Thakur",
+    "Full Stack Developer",
+    "Python Developer",
+    "TypeScript Developer",
+    "React Developer",
+    "Django Developer",
+    "FastAPI Developer",
+    "Next.js Developer",
+    "Rust Developer",
+    "Software Engineer",
+    "Open Source",
+    "Backend Developer",
+    "Frontend Developer",
+    "Devops Engineer",
+  ],
+  authors: [{ name: "Ravi Kumar Thakur", url: "https://github.com/Thakur127" }],
+  creator: "Ravi Kumar Thakur",
+  publisher: "Ravi Kumar Thakur",
+  metadataBase: new URL("https://ravithakur.pages.dev"),
+  openGraph: {
+    title: "Ravi Thakur | Full-Stack Developer",
+    description:
+      "Ravi Kumar Thakur – Full-Stack Developer proficient in Python, TypeScript, SQL, Django, FastAPI, React, Next.js, and Rust. Passionate about building scalable software and learning fast.",
+    url: "https://ravithakur.pages.dev",
+    siteName: "Ravi Thakur Portfolio",
+    images: [
+      {
+        url: "https://avatars.githubusercontent.com/u/77937169?v=4",
+        width: 1200,
+        height: 630,
+        alt: "Ravi Thakur | Full-Stack Developer",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Ravi Thakur | Full-Stack Developer",
+    description:
+      "Ravi Kumar Thakur – Full-Stack Developer proficient in Python, TypeScript, SQL, Django, FastAPI, React, Next.js, and Rust.",
+    creator: "@ravic0des",
+    images: ["https://avatars.githubusercontent.com/u/77937169?v=4"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-snippet": -1,
+      "max-image-preview": "large",
+      "max-video-preview": -1,
+    },
+  },
 };
 
 // cloudfare config
@@ -29,7 +85,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
