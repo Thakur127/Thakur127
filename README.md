@@ -30,7 +30,7 @@ Hey, I’m **Ravi Kumar Thakur** — a Delhi-based Software Engineer who can bui
   🎮 A PyGame-based version of the classic arcade game. Built as part of a college project.
 
 - **[Backdoor](https://github.com/Thakur127/rust-shit/tree/main/backdoor)**  
-  🔁 Possibly the worst HTTP reverse proxy ever built (your words 😂). Created for learning how reverse proxies work under the hood.
+  🔁 Possibly the worst HTTP reverse proxy ever built 😂. Created for learning how reverse proxies work under the hood.
 
 - **[ScrollPedia](https://github.com/Thakur127/Scroll-Pedia)**  
   📖 A mobile app that shows a new Wikipedia article on every scroll. Learn something new with each swipe!
